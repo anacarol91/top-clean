@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="main">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Top Clean</title>
+
+    <!-- css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </head>
+
+  <!------------------ START ------------------------>
+  <body ng-controller="MainCtrl as ctrl">
+
+    <!-- primeiro container -->
+    <div class="first text-left container-fluid">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-9">
+            <img class="first-logo" src="img/logo01.png"/>
+            <h1 class="white bold no-margin">Lave seu sofá e outros estofados<br>em Belo Horizonte e região</h1>
+            <h2 class="white light no-margin">Serviço rápido realizado em sua própria casa,<br>com cobertura total de danos</h2>
+            <button type="button" class="btn btn-orange btn-lg">FAÇA SEU ORÇAMENTO</button>
+            <p class="white regular">*resposta em até 60 minutos em horário comercial</p>
+          </div>
+
+          <div class="col-md-3">
+
+            <div class="dropdown">
+              <button class="btn btn-drop dropdown-toggle regular" type="button" id="menu1" data-toggle="dropdown">Outros Serviços
+                <span class="caret"></span>
+              </button>
+
+              <ul class="dropdown-menu drop-list" role="menu" aria-labelledby="menu1">
+                <li role="presentation" class="dropdown-header bold drop-title">Limpeza</li>
+                <li role="presentation"><a role="menuitem" class="drop-item" tabindex="-1">Carpete</a></li>
+                <li role="presentation"><a role="menuitem" class="drop-item" tabindex="-1">Colchão</a></li>
+                <li role="presentation"><a role="menuitem" class="drop-item" tabindex="-1">Sofá e outros estofados</a></li>
+                <li role="presentation"><a role="menuitem" class="drop-item" tabindex="-1">Tapetes</a></li>
+
+                <li role="presentation" class="dropdown-header bold drop-title title02">Impermeabilização</li>
+                <li role="presentation"><a role="menuitem" class="drop-item item02" tabindex="-1">Sofá e outros estofados</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- segundo container -->
+    <div class="second container-fluid">
+      <div class="container blue-box clearfix">
+        <img class="phone-icon" src="img/telefone.png"/>
+        <h1 class="white regular no-margin number">(31) 3032-6060</h1>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- terceiro container -->
+    <div class="container third text-center">
+      <h1 class="gray bold third-title">Veja o passo a passo de como lavamos<br>o seu sofá e outros estofados</h1>
+      <img src="img/reta.png"/>
+
+      <div class="row">
+        <div class="col-md-4">
+          <img class="passo-icon icon-adjust" src="img/passo01.png"/>
+          <img class="reta02" src="img/reta02.png"/>
+          <p class="gray bold passo-text">Utilizamos o processo de<br>extração à vácuo de alta<br>pressão com enxágue. Somente<br>dessa forma é possível extrair<br>90% da água ejetada.</p>
+        </div>
+        <div class="col-md-4">
+          <img class="passo-icon" src="img/passo02.png"/>
+          <img class="reta02" src="img/reta02.png"/>
+          <p class="gray bold passo-text">No compartimento interno da<br>máquina é utilizada água, e<br>após todo o processo, você<br>pode visualizar a sujeira<br>sendo retirada.</p>
+        </div>
+        <div class="col-md-4">
+          <img class="passo-icon" style="margin-left: 0" src="img/passo03.png"/>
+          <p class="gray bold passo-text">A profundidade de alcance da<br>sujeira é de 4 cm, eliminando<br>ácaros, fungos e bactérias que<br>estão não somente na<br>superfície, mas também na<br>espuma.</p>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-orange btn-lg btn-adjust">QUERO LAVAR MEU SOFÁ OU ESTOFADO</button>
+      <p class="gray bold">*resposta em até 60 minutos em horário comercial</p>
+    </div>
+    <!-- END -->
+
+    <!-- quarto container -->
+    <div class="fourth  container-fluid">
+      <div class="container text-center">
+        <h1 class="white bold third-title">Lave seu sofá e estofados</h1>
+        <img src="img/reta.png"/>
+
+        <p class="white regular space"> Muitas pessoas tentam eliminar sujeiras e mau odores do sofá ou estofados como cadeiras,<br>puffs  e poltronas realizando uma lavagem por conta  própria. Porém, isso não é o mais<br>indicado. A utilização de produtos e ferramentas inadequadas  pode provocar danos<br>permanentes em seu sofá ou estofado.</p>
+
+        <div class="text-box">
+          <p class="white bold no-margin">Higienização</p>
+          <p class="white regular">Pensando no bem-estar da sua família, a limpeza de sofá e estofado proporciona não apenas a eliminação da sujeira, mas também a higienização, eliminando os micro-organismos que se acumulam, e são prejudiciais à saúde.</p>
+        </div>
+
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- quinto container -->
+    <div class="container fifth text-center">
+      <h1 class="black bold">Lave seu sofá e outros estofados com<br>uma equipe especializada</h1>
+      <img src="img/reta.png"/><br>
+
+      <button type="button" class="btn btn-orange btn-lg" style="margin-top: 1%;">FAÇA SEU ORÇAMENTO</button>
+      <p class="gray bold">*resposta em até 60 minutos em horário comercial</p>
+    </div>
+    <!-- END -->
+
+    <!-- sexto container -->
+    <div class="sixth container-fluid">
+      <div class="container text-center">
+        <h1 class="white bold third-title">Porque escolher a top clean</h1>
+        <img src="img/reta.png"/>
+
+       <div class="row white">
+        <div class="col-md-4">
+          <img class="sixth-icon adjust1" src="img/pq01.png"/>
+          <div class="adjust-box">
+            <h2 class="bold sixth-title">Vamos até a sua casa<br>ou empresa para<br>lavar</h2>
+            <p class="regular sixth-text">Para evitar deslocamentos,<br>desmontagens e desconforto,<br>realizamos o serviço em sua<br>residência ou empresa.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <img class="sixth-icon" src="img/pq02.png"/>
+          <div class="adjust-box">
+            <h2 class="bold sixth-title">Utilizamos produtos<br>especiais</h2>
+            <p class="regular sixth-text">Trabalhamos apenas com produtos<br>de primeira linha, com qualidade<br>superior, e exclusivos para limpeza e<br>higienização do seu sofá ou estofado.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <img class="sixth-icon adjust2" src="img/pq03.png"/>
+          <div class="adjust-box">
+            <h2 class="bold sixth-title">Fazemos o serviço<br>com agilidade</h2>
+            <p class="regular sixth-text">Normalmente, leva dias para<br>uma secagem completa. Mas,<br>conosco, são algumas horas,<br>dependendo do clima e local.</p>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-orange btn-lg btn-adjust">QUERO UM ORÇAMENTO DA TOP CLEAN</button>
+
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- setimo container -->
+    <div class="container-fuid seventh">
+      <div class="row">
+        <div class="col-md-3 col-md-offset-3">
+          <h1 class="white bold third-title">Dúvidas? Fale conosco</h1>
+          <img class="line" src="img/reta03.png"/>
+          <p class="white regular">Temos uma equipe pronta para<br>esclarecer as suas dúvidas<br>relacionadas ao nosso serviço.</p>
+          <button type="button" class="btn btn-orange btn-lg btn-blue">SOLICITAR INFORMAÇÕES</button>
+        </div>
+        <div class="col-md-6">
+         <div id="map" style="width:100%; height: 300px">
+        </div>
+      </div>
+
+    </div>
+    <!-- END -->
+
+    <!-- oitavo container -->
+    <div class="eighth container-fluid">
+      <div class="container">
+        <div class="logo-box">
+          <img class="logo" src="img/logo02.png"/>
+        </div>
+
+        <p class="white regular">Atuando na Região Metropolitana de Belo Horizonte, a Top Clean desponta como a empresa que conquista mais pessoas a cada dia. O perfil de nossos clientes são pessoas que não têm mais tempo para manter seus objetos revestidos com tecidos com a devida manutenção de higiene necessária, não somente para aparência visual mas principalmente para a saúde e bem estar de quem vive ou trabalha no ambiente.
+        <br><br>
+        Os equipamentos utilizados pelo sistema Top Clean são os melhores do mercado, os produtos são específicos para limpeza de tecido e todos os técnicos são registrados e devidamente capacitados para um atendimento personalizado no qual segurança, qualidade e cortesia são as características adotadas.
+        Os preços dos serviços prestados são absolutamente justos, privilegiando a relação de custo x benefício.
+        <br><br>
+        Nossos serviços estão voltados para um setor ainda pouco explorado no Brasil: a limpeza, higienização e impermeabilização de sofás, cadeiras, poltronas, puffs,  estofados em geral, colchões, divisórias revestidas, carrinhos de bebê, tapetes, carpetes, além de limpeza e hidratação em estofados de couro.
+        <br><br>
+        Resumindo, a Top Clean tem como pilares principais a qualidade de seus produtos e o profissionalismo nas técnicas de trabalho, proporcionando ao cliente final uma experiência única na limpeza e conservação dos objetos tratados.
+        Tudo isso no local, sem que tenha que sair de casa ou escritório para procurar algum serviço semelhante.
+        <br><br>
+        Por isso, a Top Clean é tão importante, levando o máximo de profissionalismo para dentro de sua casa ou empresa.</p>
+
+      </div>
+
+    </div>
+    <!-- END -->
+
+  </body>
+</html>
